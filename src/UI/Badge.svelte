@@ -1,0 +1,21 @@
+<script>
+  import { fade } from "svelte/transition";
+</script>
+
+<style>
+  span {
+    display: inline-block;
+    margin: 0 0.25rem;
+    border-radius: 3px;
+    border: 1px solid #01a129;
+    background: #01a129;
+    color: white;
+    padding: 0 0.5rem;
+    font-family: "Lato", sans-serif;
+    font-size: 0.8rem;
+  }
+</style>
+
+<span transition:fade={{ duration: 300 }}>
+  <slot />
+</span>
