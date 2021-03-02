@@ -1,6 +1,5 @@
 <script>
   import { createEventDispatcher } from "svelte";
-
   const dispatch = createEventDispatcher();
 
   let selectedButton = 0;
@@ -35,8 +34,8 @@
   button:hover,
   button:active,
   .active {
-    background: #0074c0;
-    border-color: #0074c0;
+    background: #607d8b;
+    border-color: #607d8b;
     color: white;
   }
 </style>
@@ -49,7 +48,7 @@
       selectedButton = 0;
       dispatch('select', 0);
     }}>
-    All Books
+    All
   </button>
   <button
     type="button"
@@ -58,6 +57,6 @@
       selectedButton = 1;
       dispatch('select', 1);
     }}>
-    Available Books
+    Favorites
   </button>
 </div>

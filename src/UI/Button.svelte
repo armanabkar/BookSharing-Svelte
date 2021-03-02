@@ -10,12 +10,12 @@
   button,
   a {
     font: inherit;
-    border: 1px solid #0074c0;
-    background: #0074c0;
+    border: 1px solid #607d8b;
+    background: #607d8b;
     padding: 0.5rem 1rem;
     color: white;
     border-radius: 5px;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.26);
+    box-shadow: 1px 1px 3px #000.26;
     cursor: pointer;
     text-decoration: none;
   }
@@ -28,8 +28,8 @@
   button:active,
   a:hover,
   a:active {
-    background: #025a94;
-    border-color: #025a94;
+    background: #34444b;
+    border-color: #34444b;
     box-shadow: 1px 1px 8px rgba(77, 51, 51, 0.26);
   }
 
@@ -56,13 +56,13 @@
 
   .outline {
     background: transparent;
-    color: #0074c0;
+    color: #607d8b;
     box-shadow: none;
   }
 
   .outline:hover,
   .outline:active {
-    background: #0073c03f;
+    background: #ffc7de;
     box-shadow: none;
   }
 
