@@ -44,14 +44,14 @@
   }
 
   .success {
-    background: #01a129;
-    border-color: #01a129;
+    background: #00AA8D;
+    border-color: #00AA8D;
   }
 
   .success:hover,
   .success:active {
-    background: #1ac745;
-    border-color: #1ac745;
+    background: #00BF9A;
+    border-color: #00BF9A;
   }
 
   .outline {
@@ -62,8 +62,9 @@
 
   .outline:hover,
   .outline:active {
-    background: #ffc7de;
+    background: inherit;
     box-shadow: none;
+    background-color: rgb(238, 238, 238);
   }
 
   .outline:disabled,
@@ -74,8 +75,8 @@
   }
 
   .outline.success {
-    border-color: #01a129;
-    color: #01a129;
+    border-color: #00AA8D;
+    color: #00AA8D;
   }
 
   .outline.success:hover,

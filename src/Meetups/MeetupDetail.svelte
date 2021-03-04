@@ -30,7 +30,7 @@
 	.content {
 		text-align: center;
 		width: 80%;
-		margin: auto;
+		margin: 1rem auto 0 auto;
 	}
 
 	h1 {
