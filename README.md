@@ -2,6 +2,12 @@
 
 A simple MeetUps app built with Svelte.
 
+<h2 align="center">
+  <img src="./screenshot.png" alt="svelte-meetup" width="600px" />
+  <br>
+</h2>
+
+
 ## Installation & Usage
 
 ```bash
